@@ -1,0 +1,51 @@
+h1.header{
+    text-align: center;
+}
+
+
+div.container {
+    text-align: center;
+}
+
+ul.myUL {
+    display: inline-block;
+    text-align: left;
+}
+
+li.food-1 {
+    color: orange;
+}
+
+li.food-2 {
+    color: rgb(197, 118, 14);
+}
+
+li.food-3 {
+    color: red;
+}
+
+li{
+    font-size: 35px;
+}
+
+div.container-1 {
+    text-align: center;
+}
+
+h1.title{
+    text-align: center;
+}
+
+.description{
+    text-align: center;
+}
+
+h2.ingredients{
+    text-align: center;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
