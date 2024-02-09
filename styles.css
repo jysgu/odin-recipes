@@ -24,8 +24,8 @@ li.food-3 {
     color: red;
 }
 
-li{
-    font-size: 35px;
+ul.myUL li{
+    font-size: 20px;
 }
 
 div.container-1 {
@@ -36,7 +36,7 @@ h1.title{
     text-align: center;
 }
 
-.description{
+div.description{
     text-align: center;
 }
 
@@ -48,4 +48,54 @@ h2.ingredients{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+body#lasagna {
+    background-color: orange;
+    color: white;
+    
+}
+
+body#nachos
+{
+    background-color: rgb(197, 118, 14);
+    text-align: center;
+    
+}
+
+body#apple{
+    background-color:rgb(236, 72, 72);
+    text-align: center;
+}
+
+div.steps#food-1{
+    text-align: left;
+    display: inline-block;
+    display: table;
+    margin: auto;
+}
+
+
+p {
+    list-style-position: inside;
+    font-size: 20px;
+}
+
+div.steps#food-2{
+    text-align: center;
+}
+
+ol.myOLnachos{
+    display: inline-block;
+    text-align: left;
+}
+
+div.steps#food-3{
+    text-align:left;
+    display: inline-block;
+    display: table;
+    margin: auto;
+}
+
+ol.myOLapple{
 }
