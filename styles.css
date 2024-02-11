@@ -1,27 +1,46 @@
 h1.header{
     text-align: center;
+
 }
 
-
-div.container {
+div.container-main{
+    margin-bottom: 20px;
+    background-color:darkgray;
     text-align: center;
 }
 
+div.container {
+    text-align: center; 
+}
+
+body{
+    background-color:azure;
+}
 ul.myUL {
     display: inline-block;
     text-align: left;
 }
 
-li.food-1 {
+
+div.food-1 {
     color: orange;
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 40px;
+    border: solid white;
 }
 
-li.food-2 {
+div.food-2 {
     color: rgb(197, 118, 14);
+    margin-bottom: 20px;
+    border: solid aquamarine;
+    padding: 40px;
 }
 
-li.food-3 {
+div.food-3 {
     color: red;
+    border: solid antiquewhite;
+    padding: 40px;
 }
 
 ul.myUL li{
