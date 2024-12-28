@@ -1,0 +1,41 @@
+#sushilink {
+    color: orange;
+    
+}
+
+#fclink {
+    color: brown;
+}
+
+#spaglink{
+    color: red;
+}
+
+#sushilink, #fclink,
+#spaglink {
+    text-align: center;
+    list-style-position:inside;
+} 
+
+.sushipage{
+    background-color: orange;
+    color: #800020;
+}
+
+#mainheader, #sushih1, #sushih2, #sushih3{
+   text-align: center; 
+   font-size: 70px;
+}
+
+.sushilist{
+    font-size: 60px;
+    text-align: center;
+    list-style-position: inside;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
