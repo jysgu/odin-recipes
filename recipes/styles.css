@@ -27,11 +27,17 @@
     color: #FFDB58;
 }
 
-#mainheader, #sushih1, #sushih2, #sushih3, #fch1, #fch2, #fch3{
+.spagpage{
+    background-color: #cc2936;
+    color: #f5f0f6;
+}
+
+#mainheader, #sushih1, #sushih2, #sushih3, #fch1, #fch2, #fch3, .spagheader{
    text-align: center; 
    font-size: 70px;
    font-family: 'Courier New', Courier, monospace;
 }
+
 
 .sushilist{
     font-size: 60px;
@@ -43,6 +49,18 @@
 .fclist{
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.spaglist{
+    font-size: 20px;
+    text-align: center;
+    list-style-position: inside;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sauce, #meatballs{
+    font-size: 30px;
+    text-align: center;
 }
 
 .images {
