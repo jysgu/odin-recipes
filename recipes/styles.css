@@ -1,20 +1,43 @@
+#mainheader{
+    background-color:bisque;
+    margin: 16px 8px;
+    padding: 9px;
+    border: 5px solid gray;
+}
+
 #sushilink {
     color: orange;
-    
+    background-color: orange;
+    text-decoration: none;
 }
 
 #fclink {
     color: brown;
+    background-color: brown;
 }
 
 #spaglink{
     color: red;
+    background-color: red;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#sushilink:hover, #fclink:hover, #spaglink:hover{
+    background-color:darkslateblue;
 }
 
 #sushilink, #fclink,
 #spaglink {
-    text-align: center;
-    list-style-position:inside;
+    display: list-item;
+    justify-content:flex-end;
+    padding: 8px;
+    margin: 7px 8px;    
+    width: max-content;
+    border: solid black;
 } 
 
 .sushipage{
